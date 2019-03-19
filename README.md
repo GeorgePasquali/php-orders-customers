@@ -1,2 +1,13 @@
 # php-orders-customers
-A very bad practice php website.
+
+## To run the project use:
+
+docker-compose up -d
+
+## You can connect to your mysql container and run your commands using:
+
+docker exec -it mysql bash -l
+mysql -u devuser -p
+
+
+
